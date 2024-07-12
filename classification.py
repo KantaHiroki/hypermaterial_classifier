@@ -23,7 +23,7 @@ classification_result = f"""
 """
 
 # モデルを読み込む
-model = load_model('./text_classification_app/model/model.hdf5')
+model = load_model('./model/model.h5')
 
 
 LABELS = ['iQC', '1/1AC', '2/1AC', 'Others']
