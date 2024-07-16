@@ -23,7 +23,7 @@ classification_result = f"""
 """
 
 # モデルを読み込む
-model = load_model('./models/model.h5')
+model = load_model('./models/saved_model.pb')
 
 
 LABELS = ['iQC', '1/1AC', '2/1AC', 'Others']
